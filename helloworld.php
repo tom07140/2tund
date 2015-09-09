@@ -25,3 +25,16 @@
 	}
 
 ?>
+<br>
+<?php
+	
+	//vastavalt vanusele trükime nii mitu korda välja sõna "palju"
+	
+	for($i = 0; $i < $age; $i = $i + 1){
+		
+		//tegevus mis kordub
+		echo "palju ";
+	}
+	
+	echo "õnne!";
+?>
